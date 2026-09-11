@@ -96,16 +96,6 @@ Run the notebook cells from top to bottom.
 - Regression model training and testing
 - Model evaluation with R² and Adjusted R²
 
-## Data Quality Notes
 
-The supplied data includes values that may require domain validation, including a `year` value of **2060** and unusually high values for some variables. These were not silently removed from the original analysis.
 
-## Limitations and Future Improvements
 
-The supplied notebook evaluates Linear Regression only and does not include cross-validation, hyperparameter tuning, model persistence, or deployment. Future work could compare tree-based regression models, add feature engineering and outlier treatment, build a reusable preprocessing/model pipeline, and deploy an interactive Streamlit application.
-
-## Author
-
-**Ankush Kumar**  
-Computer Science & Engineering with Data Science  
-GitHub: https://github.com/anku04sh
